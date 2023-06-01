@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html style="background-image:radial-gradient(rgb(170, 7, 175),rgb(152, 6, 219));">
+<head>
+   <title>Registration Form</title>
+   <style>
+        .mydiv{
+            height: 400px;
+            width: 680px;
+            margin: auto; 
+            background-color: aliceblue;
+
+        }
+        .button{
+            text-align: center;
+            background-color: rgb(19, 120, 236);
+            cursor: pointer;
+            color: aliceblue;
+        }
+        label{
+            font-size: medium;
+        }
+
+   </style>
+</head>
+<body>
+    <div class="mydiv" style="display: flex;">
+        <form action="#" method="get">
+            <H1 style="padding-left: 30px;">Registration Form</H1>
+            <div style="display: flex;">
+                <div style="padding-left: 30px;">  
+                    <label for="fname">First Name</label><br>
+                    <input type="text" id="fname" style="height: 20px; width: 230px;" required><br><br>
+                    <label for="bday">Birthday</label><br>
+                    <input type="date" id="bday" style="height: 20px; width: 230px;" required><br><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" style="height: 20px; width: 230px;" required>
+                </div>
+                <div style="padding-left: 80px;">
+                    <label for="lname">Last Name</label><br>
+                    <input type="text" id="lname" style="height: 20px; width: 230px;" required><br><br>
+                    <label for="number">Phone number</label><br>
+                    <input type="tel" id="number" style="height: 20px; width: 230px;" required><br><br>
+                    <label for="gender">Gender</label><br>
+                    <input type="radio" id="male" value="Male" checked>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" value="Female">
+                    <label for="female">Female</label>
+                </div>
+            </div>
+            <br>
+            <div style="padding-left: 30px;">
+            <label for="subject">Subject</label><br>
+            <select name="subject" id="subject" style="height: 28px; width: 540px;">
+                <optgroup>
+                    <option value="Physics">Physics</option>
+                    <option value="Chemistry">Chemistry</option>
+                    <option value="Mathematics">Mathematics</option>
+                    <option value="English">English</option>
+                    <option value="Social Science">Social Science</option>
+                </optgroup>
+                <br><br>
+            </select>
+            </div>
+            <br>
+            <div style="padding-left: 30px;">
+            <button class="button">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
