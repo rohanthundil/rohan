@@ -31,7 +31,7 @@
 <body>
     <div class="mydiv" style="display: flex;">
         <form action="#" method="get">
-            <H1 style="padding-left: 30px;">Registration Form</H1>
+            <H1 style="padding-left: 30px; font-family: Arial, Helvetica, sans-serif;">Registration Form</H1>
             <div style="display: flex;">
                 <div style="padding-left: 30px;">  
                     <label for="fname">First Name</label><br>
@@ -47,9 +47,9 @@
                     <label for="number">Phone number</label><br>
                     <input type="tel" id="number" style="height: 20px; width: 230px;" required><br><br>
                     <label for="gender">Gender</label><br>
-                    <input type="radio" id="male" value="Male">
+                    <input type="radio" id="male" value="Male" name="radio">
                     <label for="male">Male</label>
-                    <input type="radio" id="female" value="Female">
+                    <input type="radio" id="female" value="Female" name="radio">
                     <label for="female">Female</label>
                 </div>
             </div>
@@ -58,7 +58,7 @@
                 <label for="subject">Subject</label><br>
                 <select name="subject" id="subject" style="height: 28px; width: 560px;">
                     <optgroup>
-                        <option value="Choose Any">Choose Any</option>
+                        <option value="Choose Any">Choose Option</option>
                         <option value="Physics">Physics</option>
                         <option value="Chemistry">Chemistry</option>
                         <option value="Mathematics">Mathematics</option>
